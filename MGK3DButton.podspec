@@ -14,7 +14,7 @@ An override of UIButton class with 3d Push Effects.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mohammadghk' => 'mohammadghk@gmail.com' }
   s.source           = { :git => 'https://github.com/mohammadghk/MGK3DButton.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/Mohammadghk'
+  #s.social_media_url = 'https://twitter.com/Mohammadghk'
 
   s.ios.deployment_target = '9.0'
 
