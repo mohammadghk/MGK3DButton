@@ -1,0 +1,6 @@
+framework module MGK3DButton {
+  umbrella header "MGK3DButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0765C903014A59CE286287A16710F751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3047092B1FB3806B42470F73EE0C10D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		736C4236F24643AA5C373F1373231698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8F1BA09B396790E0F4ACE198DE1912F9 /* MGK3DButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8947DD1F48E9E0F9203FE3648B758F /* MGK3DButton-dummy.m */; };
+		A3736FCDD45FE1447CE08139DB45DC1B /* Pods-MGK3DButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F956869AF139C0888AF5654CB707965 /* Pods-MGK3DButton_Example-dummy.m */; };
+		B24593A71D9F3457E0334BAB6F3D49F5 /* Pods-MGK3DButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F76C901A83F37D69DD4EFB7D68C1CC /* Pods-MGK3DButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B540A66EC485926E63F7A6F47CEE36F1 /* MGK3DButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B9541FAEBE67FBFABC83FA1887DCD /* MGK3DButton.swift */; };
+		CEB36E4460EE6190325A144D0FADE008 /* MGK3DButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB3EF9FCF33DD9808F902C240145578 /* MGK3DButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336701AAC7FC58C45A4506333DC2CFD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 949E4EB565E0A54334D4E66748317362;
+			remoteInfo = MGK3DButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13654834E5EBC5F31B06D864FDF29344 /* Pods-MGK3DButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGK3DButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E94FC929B363C677379B0CE0F428506 /* MGK3DButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGK3DButton.xcconfig; sourceTree = "<group>"; };
+		298B9541FAEBE67FBFABC83FA1887DCD /* MGK3DButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGK3DButton.swift; path = MGK3DButton/Classes/MGK3DButton.swift; sourceTree = "<group>"; };
+		33ED1B2CCE1559CD9C57A76AC0BD3A55 /* MGK3DButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGK3DButton-prefix.pch"; sourceTree = "<group>"; };
+		38C792388B706ADB72F7A369C010052A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F76C901A83F37D69DD4EFB7D68C1CC /* Pods-MGK3DButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGK3DButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		6D8947DD1F48E9E0F9203FE3648B758F /* MGK3DButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGK3DButton-dummy.m"; sourceTree = "<group>"; };
+		7B6967E2ED543042BCEC0699E14D4233 /* Pods-MGK3DButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGK3DButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FCDE34DE63442DE505518D512E665E0 /* Pods_MGK3DButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGK3DButton_Example.framework; path = "Pods-MGK3DButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F956869AF139C0888AF5654CB707965 /* Pods-MGK3DButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGK3DButton_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB9B0C4F866A6A0E2B4AE8955B691E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD4BEF3D9F3792157FFEAF5635578EF /* Pods-MGK3DButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGK3DButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE54E63C83C67A48E0C4FDC0DCBBEA77 /* MGK3DButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MGK3DButton.modulemap; sourceTree = "<group>"; };
+		B0CA693B4BD13F19FB4FDB8C4090F4F9 /* Pods-MGK3DButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGK3DButton_Example-resources.sh"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BB52269A1A52E705D0A4EC96145883CA /* MGK3DButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGK3DButton.framework; path = MGK3DButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BC8BBE9382B243998ECE0D7763194E /* Pods-MGK3DButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGK3DButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA5E9B96D4DBC67FB807F77B7CD5B98A /* Pods-MGK3DButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGK3DButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DEA72891C5504098E410F3C49936D71F /* Pods-MGK3DButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MGK3DButton_Example.modulemap"; sourceTree = "<group>"; };
+		FFB3EF9FCF33DD9808F902C240145578 /* MGK3DButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGK3DButton-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1545FA4BDFB522DF15018C1D75AF9B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765C903014A59CE286287A16710F751 /* Foundation.framework in Frameworks */,
+				3047092B1FB3806B42470F73EE0C10D2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9787F648E177F21F0D35F973DAE61D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736C4236F24643AA5C373F1373231698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246D3EDCF47A32E52802B535ECF78C88 /* Pods-MGK3DButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9DB9B0C4F866A6A0E2B4AE8955B691E5 /* Info.plist */,
+				DEA72891C5504098E410F3C49936D71F /* Pods-MGK3DButton_Example.modulemap */,
+				7B6967E2ED543042BCEC0699E14D4233 /* Pods-MGK3DButton_Example-acknowledgements.markdown */,
+				C7BC8BBE9382B243998ECE0D7763194E /* Pods-MGK3DButton_Example-acknowledgements.plist */,
+				8F956869AF139C0888AF5654CB707965 /* Pods-MGK3DButton_Example-dummy.m */,
+				DA5E9B96D4DBC67FB807F77B7CD5B98A /* Pods-MGK3DButton_Example-frameworks.sh */,
+				B0CA693B4BD13F19FB4FDB8C4090F4F9 /* Pods-MGK3DButton_Example-resources.sh */,
+				41F76C901A83F37D69DD4EFB7D68C1CC /* Pods-MGK3DButton_Example-umbrella.h */,
+				13654834E5EBC5F31B06D864FDF29344 /* Pods-MGK3DButton_Example.debug.xcconfig */,
+				9FD4BEF3D9F3792157FFEAF5635578EF /* Pods-MGK3DButton_Example.release.xcconfig */,
+			);
+			name = "Pods-MGK3DButton_Example";
+			path = "Target Support Files/Pods-MGK3DButton_Example";
+			sourceTree = "<group>";
+		};
+		29B4D6408F23809B7D64D9CCC4B44EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB52269A1A52E705D0A4EC96145883CA /* MGK3DButton.framework */,
+				7FCDE34DE63442DE505518D512E665E0 /* Pods_MGK3DButton_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		683FA4BFE311BE4E327228BF4EC2CBA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C792388B706ADB72F7A369C010052A /* Info.plist */,
+				AE54E63C83C67A48E0C4FDC0DCBBEA77 /* MGK3DButton.modulemap */,
+				1E94FC929B363C677379B0CE0F428506 /* MGK3DButton.xcconfig */,
+				6D8947DD1F48E9E0F9203FE3648B758F /* MGK3DButton-dummy.m */,
+				33ED1B2CCE1559CD9C57A76AC0BD3A55 /* MGK3DButton-prefix.pch */,
+				FFB3EF9FCF33DD9808F902C240145578 /* MGK3DButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGK3DButton";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				82EDEF429CDD88F5E6787953160028BF /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				29B4D6408F23809B7D64D9CCC4B44EFC /* Products */,
+				FA88A3BA4F3AF24CFFEA8C2EB868A77A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82EDEF429CDD88F5E6787953160028BF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99DFE940470784FDFC87229960372257 /* MGK3DButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		99DFE940470784FDFC87229960372257 /* MGK3DButton */ = {
+			isa = PBXGroup;
+			children = (
+				298B9541FAEBE67FBFABC83FA1887DCD /* MGK3DButton.swift */,
+				683FA4BFE311BE4E327228BF4EC2CBA8 /* Support Files */,
+			);
+			name = MGK3DButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FA88A3BA4F3AF24CFFEA8C2EB868A77A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				246D3EDCF47A32E52802B535ECF78C88 /* Pods-MGK3DButton_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		929C07995BB843A673040A763D6B5A25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB36E4460EE6190325A144D0FADE008 /* MGK3DButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB493732C4A1D4D7C8EB26714B4FD8FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24593A71D9F3457E0334BAB6F3D49F5 /* Pods-MGK3DButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		949E4EB565E0A54334D4E66748317362 /* MGK3DButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B579871533FC9B7A6B63DDE5656FEFF6 /* Build configuration list for PBXNativeTarget "MGK3DButton" */;
+			buildPhases = (
+				0A70A0FADDF4E642AD2B491944B6172B /* Sources */,
+				1545FA4BDFB522DF15018C1D75AF9B95 /* Frameworks */,
+				929C07995BB843A673040A763D6B5A25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGK3DButton;
+			productName = MGK3DButton;
+			productReference = BB52269A1A52E705D0A4EC96145883CA /* MGK3DButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E27511FB9150D7C0FB071D1839B49994 /* Pods-MGK3DButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB46D8E3D5014CD2456474A336719970 /* Build configuration list for PBXNativeTarget "Pods-MGK3DButton_Example" */;
+			buildPhases = (
+				018138A60358ACA17104758FE57AB7F6 /* Sources */,
+				C9787F648E177F21F0D35F973DAE61D8 /* Frameworks */,
+				FB493732C4A1D4D7C8EB26714B4FD8FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891F598DDE24666F653293AE9256AAFA /* PBXTargetDependency */,
+			);
+			name = "Pods-MGK3DButton_Example";
+			productName = "Pods-MGK3DButton_Example";
+			productReference = 7FCDE34DE63442DE505518D512E665E0 /* Pods_MGK3DButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29B4D6408F23809B7D64D9CCC4B44EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				949E4EB565E0A54334D4E66748317362 /* MGK3DButton */,
+				E27511FB9150D7C0FB071D1839B49994 /* Pods-MGK3DButton_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018138A60358ACA17104758FE57AB7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3736FCDD45FE1447CE08139DB45DC1B /* Pods-MGK3DButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A70A0FADDF4E642AD2B491944B6172B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1BA09B396790E0F4ACE198DE1912F9 /* MGK3DButton-dummy.m in Sources */,
+				B540A66EC485926E63F7A6F47CEE36F1 /* MGK3DButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891F598DDE24666F653293AE9256AAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGK3DButton;
+			target = 949E4EB565E0A54334D4E66748317362 /* MGK3DButton */;
+			targetProxy = 336701AAC7FC58C45A4506333DC2CFD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6082D3CFEB5B5B61144FA4D0BBDB4334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E94FC929B363C677379B0CE0F428506 /* MGK3DButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGK3DButton/MGK3DButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGK3DButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGK3DButton/MGK3DButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MGK3DButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		788202362F4A650807502F2010F5CE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13654834E5EBC5F31B06D864FDF29344 /* Pods-MGK3DButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGK3DButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGK3DButton_Example/Pods-MGK3DButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGK3DButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B440905D07718FBC970B84F248BDE443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD4BEF3D9F3792157FFEAF5635578EF /* Pods-MGK3DButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGK3DButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGK3DButton_Example/Pods-MGK3DButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGK3DButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5E138023C93B7FDBF2ED9720781AB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E94FC929B363C677379B0CE0F428506 /* MGK3DButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGK3DButton/MGK3DButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGK3DButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGK3DButton/MGK3DButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MGK3DButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B579871533FC9B7A6B63DDE5656FEFF6 /* Build configuration list for PBXNativeTarget "MGK3DButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E138023C93B7FDBF2ED9720781AB50 /* Debug */,
+				6082D3CFEB5B5B61144FA4D0BBDB4334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB46D8E3D5014CD2456474A336719970 /* Build configuration list for PBXNativeTarget "Pods-MGK3DButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788202362F4A650807502F2010F5CE9A /* Debug */,
+				B440905D07718FBC970B84F248BDE443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "MGK3DButton",
+  "version": "0.1.0",
+  "summary": "3DButton,Button with Shadow",
+  "description": "An override of UIButton class with 3d Push Effects.",
+  "homepage": "https://github.com/mohammadghk/MGK3DButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mohammadghk": "mohammadghk@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mohammadghk/MGK3DButton.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/Mohammadghk",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MGK3DButton/Classes/**/*",
+  "frameworks": "UIKit"
+}
