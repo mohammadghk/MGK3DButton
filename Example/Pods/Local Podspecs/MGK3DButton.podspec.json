@@ -17,7 +17,7 @@
   },
   "social_media_url": "https://twitter.com/Mohammadghk",
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "MGK3DButton/Classes/**/*",
   "frameworks": "UIKit"

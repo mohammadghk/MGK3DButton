@@ -36,19 +36,19 @@
 		41F76C901A83F37D69DD4EFB7D68C1CC /* Pods-MGK3DButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGK3DButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		6D8947DD1F48E9E0F9203FE3648B758F /* MGK3DButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGK3DButton-dummy.m"; sourceTree = "<group>"; };
 		7B6967E2ED543042BCEC0699E14D4233 /* Pods-MGK3DButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGK3DButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FCDE34DE63442DE505518D512E665E0 /* Pods_MGK3DButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGK3DButton_Example.framework; path = "Pods-MGK3DButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCDE34DE63442DE505518D512E665E0 /* Pods_MGK3DButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGK3DButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F956869AF139C0888AF5654CB707965 /* Pods-MGK3DButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGK3DButton_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB9B0C4F866A6A0E2B4AE8955B691E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FD4BEF3D9F3792157FFEAF5635578EF /* Pods-MGK3DButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGK3DButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AE54E63C83C67A48E0C4FDC0DCBBEA77 /* MGK3DButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MGK3DButton.modulemap; sourceTree = "<group>"; };
+		AE54E63C83C67A48E0C4FDC0DCBBEA77 /* MGK3DButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGK3DButton.modulemap; sourceTree = "<group>"; };
 		B0CA693B4BD13F19FB4FDB8C4090F4F9 /* Pods-MGK3DButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGK3DButton_Example-resources.sh"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BB52269A1A52E705D0A4EC96145883CA /* MGK3DButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGK3DButton.framework; path = MGK3DButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB52269A1A52E705D0A4EC96145883CA /* MGK3DButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGK3DButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BC8BBE9382B243998ECE0D7763194E /* Pods-MGK3DButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGK3DButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA5E9B96D4DBC67FB807F77B7CD5B98A /* Pods-MGK3DButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGK3DButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DEA72891C5504098E410F3C49936D71F /* Pods-MGK3DButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MGK3DButton_Example.modulemap"; sourceTree = "<group>"; };
+		DEA72891C5504098E410F3C49936D71F /* Pods-MGK3DButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MGK3DButton_Example.modulemap"; sourceTree = "<group>"; };
 		FFB3EF9FCF33DD9808F902C240145578 /* MGK3DButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGK3DButton-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -301,7 +301,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MGK3DButton/MGK3DButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MGK3DButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MGK3DButton/MGK3DButton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -335,7 +335,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MGK3DButton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MGK3DButton_Example/Pods-MGK3DButton_Example.modulemap";
@@ -423,7 +423,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MGK3DButton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MGK3DButton_Example/Pods-MGK3DButton_Example.modulemap";
@@ -462,7 +462,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MGK3DButton/MGK3DButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MGK3DButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MGK3DButton/MGK3DButton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
