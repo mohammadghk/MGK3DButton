@@ -1,6 +1,6 @@
 # MGK3DButton
 
-[![CI Status](https://img.shields.io/travis/USER/REPO.svg)](https://img.shields.io/travis/USER/REPO.svg)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![Version](https://img.shields.io/cocoapods/v/MGK3DButton.svg?style=flat)](http://cocoapods.org/pods/MGK3DButton)
 [![License](https://img.shields.io/cocoapods/l/MGK3DButton.svg?style=flat)](http://cocoapods.org/pods/MGK3DButton)
 [![Platform](https://img.shields.io/cocoapods/p/MGK3DButton.svg?style=flat)](http://cocoapods.org/pods/MGK3DButton)
